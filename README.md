@@ -36,18 +36,7 @@ The given dataset does not contain any label. Therefore, can be treated as an un
 4. Find Cosine Similarity between embeddings of text1 and text2.
 5. Scale the Cosine Similarity result between [0,1]
 
- 
-  
 
-
-
-4.	Reason to choose these approaches
+### 4.	Reason to choose these approaches
 1. As embedding of pre trained models hold depth semantic and context of neighbour words. It would be a decent idea to use embeddings to find similarity.
 2. I have tried to do experiment using glove as embedding and tfidf scores in combination to find the similarity and results were quite decent.
-
-5.	Conclusion	
-1. These approaches are just some first cut solution to the problem.
-2. We can see using mentioned 4 approaches we are getting quite decent results; some approaches are obviously better than others because of better embeddings.
-3. TfIDF avg W2V has done really well to find the similarity scores.
-4. Results could be definitely improved using some addition techniques like dimension reduction techniques and matrix factorisation techniques.
-5.  Need to explore more "how to tackle unsupervised Learning problem? "
